@@ -32,6 +32,8 @@ Alt-H2
 ⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
 
 * Unordered list can use asterisks
+
+# Nadpis 1
 - Or minuses
 + Or pluses
 
