@@ -1,4 +1,4 @@
-## Labs - 01 - gates
+# Labs - 01 - gates
 
 ## Lab assignment
 
