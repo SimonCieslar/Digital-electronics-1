@@ -39,7 +39,6 @@ begin
 end architecture dataflow;
 ```
 
-# De Morgan's laws
 
 | **c** | **b** |**a** | **f(c,b,a)** | **f(c,b,a)nand** | **f(c,b,a)nor** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -59,9 +58,6 @@ end architecture dataflow;
 
 ## 3. Verification of Distributive laws
 
-EDA Playground code ([LINK](https://www.edaplayground.com/x/wQEb))
-
-# Distributive laws
 **Formulation of function**
 ![DistributivesLaws](Images/DistributivesLaws.png)
 
@@ -80,6 +76,9 @@ begin
    
 end architecture dataflow;
 ```
+
+EDA Playground code ([LINK](https://www.edaplayground.com/x/wQEb))
+
 ### **Waveform of the Distributive Laws (simulation)**
 ![DistributiveLawsWaveform](Images/DistributiveLawsWaveform.png)
 
