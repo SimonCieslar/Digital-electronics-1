@@ -38,11 +38,11 @@ begin
 end architecture dataflow;
 ```
 
-### **Waveform of the De Morgan's laws**
+### **Waveform of the De Morgan's laws (simulation)**
 ![DeMorganWaveform](Images/DeMorganWaveform.png)
 
 
-# De Morgan's
+# De Morgan's laws
 
 | **c** | **b** |**a** | **f(c,b,a)** | **f(c,b,a)nand** | **f(c,b,a)nor** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -79,6 +79,6 @@ begin
    
 end architecture dataflow;
 ```
-### **Distributive Laws Waveform**
+### **Waveform of the Distributive Laws (simulation)**
 ![DistributiveLawsWaveform](Images/DistributiveLawsWaveform.png)
 
