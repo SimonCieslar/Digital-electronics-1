@@ -24,10 +24,10 @@ My GitHub [link](https://github.com/SimonCieslar/Digital-electronics-1).
 https://www.edaplayground.com/x/8PuF
 
 
-### **Architercture code for DeMorgan's laws**
+### **Architercture code for De Morgan's laws**
 ![DeMorganArchitecture](Images/DeMorganArchitecture.png)
 
-### **Waveform of the DeMorgan's laws**
+### **Waveform of the De Morgan's laws**
 ![DeMorganWaveform](Images/DeMorganWaveform.png)
 
 
@@ -53,9 +53,9 @@ https://www.edaplayground.com/x/wQEb
 
 ![DistributivesLaws](Images/DistributivesLaws.png)
 
-**Distributive Laws Architecture**
+### **Distributive Laws Architecture**
 ![DistributiveLawsArchitecture](Images/DistributiveLawsArchitecture.png)
 
-**Distributive Laws Waveform**
+### **Distributive Laws Waveform**
 ![DistributiveLawsWaveform](Images/DistributiveLawsWaveform.png)
 
