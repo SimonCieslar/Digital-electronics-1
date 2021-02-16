@@ -62,7 +62,7 @@ end architecture dataflow;
 EDA Playground code ([LINK](https://www.edaplayground.com/x/wQEb))
 
 # Distributive laws
-Formulation of function
+**Formulation of function**
 ![DistributivesLaws](Images/DistributivesLaws.png)
 
 ### **Distributive Laws Architecture**
