@@ -39,6 +39,8 @@ https://www.edaplayground.com/x/8PuF
 
 ## 3. Verification of Distributive laws
 
+https://www.edaplayground.com/x/wQEb
+
 # Distributive laws
 
 | **c** | **b** |**a** | **f(c,b,a)** | **f(c,b,a)nand** | **f(c,b,a)nor** |
