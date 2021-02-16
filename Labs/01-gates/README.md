@@ -39,10 +39,6 @@ begin
 end architecture dataflow;
 ```
 
-### **Waveform of the De Morgan's laws (simulation)**
-![DeMorganWaveform](Images/DeMorganWaveform.png)
-
-
 # De Morgan's laws
 
 | **c** | **b** |**a** | **f(c,b,a)** | **f(c,b,a)nand** | **f(c,b,a)nor** |
@@ -55,6 +51,10 @@ end architecture dataflow;
 |  1  |  0  |  1  |  1  |  1  |  1  |   
 |  1  |  1  |  0  |  0  |  0  |  0  |    
 |  1  |  1  |  1  |  0  |  0  |  0  |  
+
+
+### **Waveform of the De Morgan's laws (simulation)**
+![DeMorganWaveform](Images/DeMorganWaveform.png)
 
 
 ## 3. Verification of Distributive laws
