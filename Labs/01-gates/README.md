@@ -15,9 +15,7 @@
     * Link to your public EDA Playground example.
 
 ## 1. Submit the GitHub link
-https://github.com/SimonCieslar/Digital-electronics-1
-
-
+My GitHub [link](https://github.com/SimonCieslar/Digital-electronics-1).
 
 ## 2. Verification of De Morgan's laws of function f(c,b,a)
 
