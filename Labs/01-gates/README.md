@@ -21,7 +21,7 @@ My GitHub [link](https://github.com/SimonCieslar/Digital-electronics-1).
 
 ![DeMorgan](Images/DeMorganLaws.gif)
 
-https://www.edaplayground.com/x/8PuF
+[Link](https://www.edaplayground.com/x/8PuF) to EDA Playground code https://www.edaplayground.com/x/8PuF
 
 
 ### **Architercture code for De Morgan's laws**
