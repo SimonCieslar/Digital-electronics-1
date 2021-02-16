@@ -20,7 +20,7 @@ My GitHub [link](https://github.com/SimonCieslar/Digital-electronics-1).
 ## 2. Verification of De Morgan's laws of function f(c,b,a)
 
 https://www.edaplayground.com/x/8PuF
-![DeMorgan's_law](Images/De Morgan's - waveform.png)
+![Morgan](Images/De Morgan's - waveform.png)
 # De Morgan's
 
 | **c** | **b** |**a** | **f(c,b,a)** | **f(c,b,a)nand** | **f(c,b,a)nor** |
