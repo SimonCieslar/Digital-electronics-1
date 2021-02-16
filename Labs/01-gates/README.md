@@ -65,8 +65,20 @@ Formulation of function
 ![DistributivesLaws](Images/DistributivesLaws.png)
 
 ### **Distributive Laws Architecture**
-![DistributiveLawsArchitecture](Images/DistributiveLawsArchitecture.png)
-
+> Excerpt from `design.vhd`:
+```vhdl
+architecture dataflow of gates is
+begin
+    d1_o  <= (x_i and y_i) or (x_i and z_i);
+    
+    d2_o  <= x_i and (y_i or z_i);
+    
+    d3_o  <= (x_i or y_i) and (x_i or z_i);
+    
+    d4_o  <= x_i or (y_i and z_i);
+   
+end architecture dataflow;
+```
 ### **Distributive Laws Waveform**
 ![DistributiveLawsWaveform](Images/DistributiveLawsWaveform.png)
 
