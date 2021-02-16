@@ -19,10 +19,13 @@ My GitHub [link](https://github.com/SimonCieslar/Digital-electronics-1).
 
 ## 2. Verification of De Morgan's laws of function f(c,b,a)
 
-![Morgan](Images/DeMorganLaws.gif)
+![DeMorgan](Images/DeMorganLaws.gif)
 
 https://www.edaplayground.com/x/8PuF
 
+![DeMorganArchitecture](Images/DeMorganArchitecture.png)
+
+![DeMorganWaveform](Images/DeMorganWaveform.png)
 
 
 # De Morgan's
@@ -44,4 +47,10 @@ https://www.edaplayground.com/x/8PuF
 https://www.edaplayground.com/x/wQEb
 
 # Distributive laws
+
+![DistributivesLaws](Images/DistributivesLaws.png)
+
+![DistributiveLawsArchitecture](Images/DistributiveLawsArchitecture.png)
+
+![DistributiveLawsWaveform](Images/DistributiveLawsWaveform.png)
 
