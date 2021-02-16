@@ -14,8 +14,10 @@
     * Screenshot with simulated time waveforms,
     * Link to your public EDA Playground example.
 
-**Source code**
+## 1. Submit the GitHub link
 https://www.edaplayground.com/x/8PuF
+
+## 2. Verification of De Morgan's laws of function f(c,b,a)
 
 # De Morgan's
 
@@ -31,6 +33,7 @@ https://www.edaplayground.com/x/8PuF
 |  1  |  1  |  1  |  0  |  0  |  0  |  
 
 
+## 3. Verification of Distributive laws
 
 # Distributive laws
 
