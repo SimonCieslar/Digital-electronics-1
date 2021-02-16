@@ -21,7 +21,7 @@ My GitHub [link](https://github.com/SimonCieslar/Digital-electronics-1).
 
 ![DeMorgan](Images/DeMorganLaws.gif)
 
-[Link](https://www.edaplayground.com/x/8PuF) to EDA Playground code https://www.edaplayground.com/x/8PuF
+[Link](https://www.edaplayground.com/x/8PuF) to EDA Playground code
 
 
 ### **Architercture code for De Morgan's laws**
@@ -47,7 +47,7 @@ My GitHub [link](https://github.com/SimonCieslar/Digital-electronics-1).
 
 ## 3. Verification of Distributive laws
 
-https://www.edaplayground.com/x/wQEb
+[Link](https://www.edaplayground.com/x/wQEb) to EDA Playground code
 
 # Distributive laws
 
