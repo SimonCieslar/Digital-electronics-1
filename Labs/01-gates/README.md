@@ -59,6 +59,7 @@ end architecture dataflow;
 ## 3. Verification of Distributive laws
 
 **Formulation of function**
+
 ![DistributivesLaws](Images/DistributivesLaws.png)
 
 ### **Distributive Laws Architecture**
