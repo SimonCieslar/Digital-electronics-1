@@ -24,10 +24,10 @@ My GitHub [link](https://github.com/SimonCieslar/Digital-electronics-1).
 https://www.edaplayground.com/x/8PuF
 
 
-**Architercture code for DeMorgan's laws**
+# **Architercture code for DeMorgan's laws**
 ![DeMorganArchitecture](Images/DeMorganArchitecture.png)
 
-**Waveform of the DeMorgan's laws**
+# **Waveform of the DeMorgan's laws**
 ![DeMorganWaveform](Images/DeMorganWaveform.png)
 
 
