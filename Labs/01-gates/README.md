@@ -19,6 +19,7 @@ My GitHub [link](https://github.com/SimonCieslar/Digital-electronics-1).
 
 ## 2. Verification of De Morgan's laws of function f(c,b,a)
 **Formulation of function
+
 ![DeMorgan](Images/DeMorganLaws.gif)
 
 EDA Playground code ([LINK](https://www.edaplayground.com/x/8PuF))
