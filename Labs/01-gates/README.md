@@ -39,7 +39,7 @@ begin
 end architecture dataflow;
 ```
 
-
+**Results in table**
 | **c** | **b** |**a** | **f(c,b,a)** | **f(c,b,a)nand** | **f(c,b,a)nor** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 |  0  |  0  |  0  |  1  |  1  |  1  | 
