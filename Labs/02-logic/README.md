@@ -57,3 +57,4 @@
 
 
 
+EDA Playground code ([LINK](https://www.edaplayground.com/x/kAMu))
