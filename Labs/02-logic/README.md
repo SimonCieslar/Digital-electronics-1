@@ -42,7 +42,7 @@
 
 ## 2. A 2-bit comparator.
 
-### Karnaugh maps for all three functions
+### 2.1. Karnaugh maps for all three functions
 
 ### B is greater than A
 
@@ -56,8 +56,10 @@
 
 ![K_Mapa_B_is_less_than_A](Images/K_Mapa_B_is_less_than_A.png)
 
+### 2.2. Equations of simplified SoP form of the "greater than" function and simplified PoS form of the "less than" function.
 
 
+### 2.3. Link to your public EDA Playground example in the form `https://www.edaplayground.com/...
 EDA Playground code ([LINK](https://www.edaplayground.com/x/kAMu))
 
 ## 3. A 4-bit binary comparator.
