@@ -44,15 +44,15 @@
 
 ### 2.1. Karnaugh maps for all three functions
 
-### B is greater than A
+### Karnaugh map - B is greater than A
 
 ![K_Mapa_B_is_greater_than_A](Images/K_Mapa_B_is_greater_than_A.png)
 
-### B equals A
+### Karnaugh map - B equals A
 
 ![K_Mapa_B_equals_A](Images/K_Mapa_B_equals_A.png)
 
-### B is less than A
+### Karnaugh map - B is less than A
 
 ![K_Mapa_B_is_less_than_A](Images/K_Mapa_B_is_less_than_A.png)
 
