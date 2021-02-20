@@ -16,7 +16,7 @@
    * Link to your public EDA Playground example.
 
 
-## Preparation tasks (done before the lab at home)
+## 1. Preparation tasks (done before the lab at home).
 
 *Digital* or *Binary comparator* compares the digital signals A, B presented at input terminal and produce outputs depending upon the condition of those inputs. Complete the truth table for 2-bit *Identity comparator* (B equals A), and two *Magnitude comparators* (B is greater than A, B is less than A). Note that, such a digital device has four inputs and three outputs/functions.
 
@@ -38,3 +38,22 @@
 | 13 | 1 1 | 0 1 | 1 | 0 | 0 |
 | 14 | 1 1 | 1 0 | 1 | 0 | 0 |
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
+
+## 2. A 2-bit comparator.
+
+### Karnaugh maps for all three functions
+
+**B is greater than A**
+
+![K_Mapa_B_is_greater_than_A](Images/K_Mapa_B_is_greater_than_A.png)
+
+**B equals A**
+
+![K_Mapa_B_equals_A](Images/K_Mapa_B_equals_A.png)
+
+**B is less than A**
+
+![K_Mapa_B_is_less_than_A](Images/K_Mapa_B_is_less_than_A.png)
+
+
+
