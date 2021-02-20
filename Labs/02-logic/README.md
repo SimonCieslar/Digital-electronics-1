@@ -8,6 +8,7 @@
 2. A 2-bit comparator. Submit:
    * Karnaugh maps for all three functions.
    * Simplified SoP form of the "greater than" function and simplified PoS form of the "less than" function.
+   * Link to your public EDA Playground example in the form `https://www.edaplayground.com/...`
 
 3. A 4-bit binary comparator. Submit:
    * Listing of VHDL code (`design.vhd`),
@@ -58,3 +59,5 @@
 
 
 EDA Playground code ([LINK](https://www.edaplayground.com/x/kAMu))
+
+## 3. A 4-bit binary comparator.
