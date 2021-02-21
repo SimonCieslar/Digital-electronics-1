@@ -90,10 +90,39 @@ begin
     B_equals_A_o   <= '1' when (b_i = a_i) else '0';
     
 end architecture Behavioral;
-
 ```
 
 ### 3.2. Listing of VHDL stimulus process from testbench file (`testbench.vhd`) with syntax highlighting,
+
+> Excerpt from `design.vhd`:
+```vhdl
+    p_stimulus : process
+    begin
+        -- Report a note at the begining of stimulus process
+        report "Stimulus process started" severity note;
+
+        -- First test values
+        s_b <= "0000"; s_a <= "0000"; wait for 100 ns;
+        -- Expected output
+        assert ((s_B_greater_A = '0') and (s_B_equals_A = '1') and (s_B_less_A = '0'))
+        -- If false, then report an error
+        report "Test failed for input combination: 0000, 0000" severity error;
+        
+        -- Second test values
+        s_b <= "1000"; s_a <= "0100"; wait for 100 ns;
+        assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A = '0'))
+        report "Test failed for input combination: 1000, 0100" severity error;
+        
+        -- Third test values (Mistakes)
+        s_b <= "1000"; s_a <= "1000"; wait for 100 ns;
+        assert ((s_B_greater_A = '0') and (s_B_equals_A = '0') and (s_B_less_A = '1'))
+        report "Test failed for input combination: 1000, 1000" severity error;
+        
+        -- Report a note at the end of stimulus process
+        report "Stimulus process finished" severity note;
+        wait;
+    end process p_stimulus;
+```
 
 ### 3.3. Listing of simulator console output, i.e. with one reported error,
 
