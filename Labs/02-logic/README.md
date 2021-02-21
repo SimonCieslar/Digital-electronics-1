@@ -124,7 +124,9 @@ end architecture Behavioral;
     end process p_stimulus;
 ```
 
-### 3.3. Listing of simulator console output, i.e. with one reported error,
+### 3.3. Listing of simulator console output, i.e. with one reported error
+
+![OutPut_Simulus.png](Images/OutPut_Simulus.png)
 
 ### 3.4. Link to my public EDA Playground 
 
