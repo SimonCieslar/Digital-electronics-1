@@ -113,7 +113,7 @@ end architecture Behavioral;
         assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A = '0'))
         report "Test failed for input combination: 1000, 0100" severity error;
         
-        -- Third test values (Mistakes)
+        -- Third test values (Mistake)
         s_b <= "1000"; s_a <= "1000"; wait for 100 ns;
         assert ((s_B_greater_A = '0') and (s_B_equals_A = '0') and (s_B_less_A = '1'))
         report "Test failed for input combination: 1000, 1000" severity error;
