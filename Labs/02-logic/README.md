@@ -74,3 +74,6 @@
 EDA Playground code ([LINK](https://www.edaplayground.com/x/kAMu))
 
 ## 3. A 4-bit binary comparator.
+
+EDA Playground code ([LINK](https://www.edaplayground.com/x/wfKF))
+
