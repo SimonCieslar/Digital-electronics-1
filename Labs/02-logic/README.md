@@ -66,6 +66,9 @@
 
 #### Product of Sum of the "greater than" function
 
+![K_Mapa_B_is_less_than_A_Skupiny_0.png](Images/K_Mapa_B_is_less_than_A_Skupiny_0.png)
+
+![PoS.png](Images/PoS.png)
 
 ### 2.3. Link to your public EDA Playground example in the form `https://www.edaplayground.com/...
 EDA Playground code ([LINK](https://www.edaplayground.com/x/kAMu))
