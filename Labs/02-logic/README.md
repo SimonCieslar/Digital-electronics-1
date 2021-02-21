@@ -70,10 +70,19 @@
 
 ![PoS.png](Images/PoS.png)
 
-### 2.3. Link to your public EDA Playground example in the form `https://www.edaplayground.com/...
+### 2.3. Link to my public EDA Playground 
+
 EDA Playground code ([LINK](https://www.edaplayground.com/x/kAMu))
 
 ## 3. A 4-bit binary comparator.
+
+### 3.1. Listing of VHDL architecture from design file (`design.vhd`) with syntax highlighting
+
+### 3.2. Listing of VHDL stimulus process from testbench file (`testbench.vhd`) with syntax highlighting,
+
+### 3.3. Listing of simulator console output, i.e. with one reported error,
+
+### 3.4. Link to my public EDA Playground 
 
 EDA Playground code ([LINK](https://www.edaplayground.com/x/wfKF))
 
