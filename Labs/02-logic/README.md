@@ -78,6 +78,21 @@ EDA Playground code ([LINK](https://www.edaplayground.com/x/kAMu))
 
 ### 3.1. Listing of VHDL architecture from design file (`design.vhd`) with syntax highlighting
 
+> Excerpt from `design.vhd`:
+```vhdl
+architecture Behavioral of comparator_4bit is
+begin
+	
+    B_less_A_o   <= '1' when (b_i < a_i) else '0';
+    
+    B_greater_A_o   <= '1' when (b_i > a_i) else '0';
+    
+    B_equals_A_o   <= '1' when (b_i = a_i) else '0';
+    
+end architecture Behavioral;
+
+```
+
 ### 3.2. Listing of VHDL stimulus process from testbench file (`testbench.vhd`) with syntax highlighting,
 
 ### 3.3. Listing of simulator console output, i.e. with one reported error,
