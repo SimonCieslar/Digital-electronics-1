@@ -58,6 +58,14 @@
 
 ### 2.2. Equations of simplified SoP form of the "greater than" function and simplified PoS form of the "less than" function.
 
+#### Sum of Product of the "greater than" function
+
+![K_Mapa_B_is_greater_than_A_skupiny_1.png](Images/K_Mapa_B_is_greater_than_A_skupiny_1.png)
+
+![SoP.png](Images/SoP.png)
+
+#### Product of Sum of the "greater than" function
+
 
 ### 2.3. Link to your public EDA Playground example in the form `https://www.edaplayground.com/...
 EDA Playground code ([LINK](https://www.edaplayground.com/x/kAMu))
