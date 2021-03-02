@@ -128,5 +128,5 @@ Click `Finish` and the project will be created...
 ![EightWindow](Images/EightWindow.png)
 
 The project is now created. In sources you can open your `name_of_your_sources".vhd` file and write your code...
-![NinthWindow](Images/NinthWindow.png)
+![NinthWindows](Images/NinthWindows.png)
 
