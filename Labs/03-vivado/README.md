@@ -112,6 +112,6 @@ Now click again the button `NEXT`...
 Now we see a window called **Add Sources**.
 Click on `Create File` and after that to the **File name** field write **Design**.
 
-![FifthWindow](Images/FifthWindow.png)
+![FifthWindow](Images/FifthWindow_1.png)
 
 
