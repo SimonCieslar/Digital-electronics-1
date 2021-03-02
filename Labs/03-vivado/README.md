@@ -81,7 +81,7 @@ end architecture Behavioral;
 
 ### 2.3. Screenshot with simulated time waveforms; always display all inputs and outputs.
 
-Změnit EDA Playground code ([LINK](https://www.edaplayground.com/x/kAMu))
+![Waveform](Images/Waveform.png)
 
 ## 3. A Vivado tutorial.
 
