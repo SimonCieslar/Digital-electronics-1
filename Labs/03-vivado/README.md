@@ -18,7 +18,7 @@
 
 ### 1.1. Figure or table with connection of 16 slide switches and 16 LEDs on Nexys A7 board.
 
-**Table created from Nexys A7™ FPGA Board Reference Manual**
+**Table created from the "Nexys A7™ FPGA Board Reference Manual"**
 
 ![I_o_interface](Images/interface.png)
 
