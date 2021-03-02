@@ -130,3 +130,13 @@ Click `Finish` and the project will be created...
 The project is now created. In sources you can open your `name_of_your_sources".vhd` file and write your code...
 ![NinthWindows](Images/NinthWindows.png)
 
+![TenthWindows](Images/TenthWindows.png)
+
+For creating a file named "testbench" choose `File/Add Sources`. 
+After that choose `Add or create simulation sources` as you can see in the picture (the process is similar to creating the Design.vhd earlier)...
+![EleventhWindow](Images/EleventhWindow.png)
+
+We can start the simulation here...
+![TwelfthWindow](Images/TwelfthWindow.png)
+or you can follow this steps `Flow/Run Simulation/Run Behavioral Simulation`
+
