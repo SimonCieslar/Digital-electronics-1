@@ -105,4 +105,13 @@ Click the button `NEXT`. Now we see a window where we can name the project and s
 
 ![ThirdWindow](Images/ThirdWindow.png)
 
+Now click again the button `NEXT`...
+
+![FourthWindow](Images/FourthWindow.png)
+
+Now we see a window called **Add Sources**.
+Click on `Create File` and after that to the **File name** field write **Design**.
+
+![FifthWindow](Images/FifthWindow.png)
+
 
