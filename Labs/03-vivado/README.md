@@ -119,6 +119,14 @@ Here we use parts of old codes, so we skip...
 ![SixthWindow](Images/SixthWindow.png)
 
 In the window called **Default Part** 
-The next step is important because we choose the board for which we will create a code.
+The next step is important because we choose the board for which we will create a code. We are using board Nexys A7-50T.
+So we select the appropriate board and continue to `Next`...
 ![SeventhWindow](Images/SeventhWindow.png)
+
+Now we see a summary of our created project.
+Click `Finish` and the project will be created...
+![EightWindow](Images/EightWindow.png)
+
+The project is now created. In sources you can open your `name_of_your_sources".vhd` file and write your code...
+![NinthWindow](Images/NinthWindow.png)
 
