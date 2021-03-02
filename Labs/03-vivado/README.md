@@ -110,8 +110,15 @@ Now click again the button `NEXT`...
 ![FourthWindow](Images/FourthWindow.png)
 
 Now we see a window called **Add Sources**.
-Click on `Create File` and after that to the **File name** field write **Design**.
+Click on `Create File` and after that to the **File name** field write **Design**. Now click `OK` after that `Next`...
 
 ![FifthWindow](Images/FifthWindow_1.png)
 
+Now we see a window called **Add Constraints**. Here press `Next`.
+Here we use parts of old codes, so we skip...
+![SixthWindow](Images/SixthWindow.png)
+
+In the window called **Default Part** 
+The next step is important because we choose the board for which we will create a code.
+![SeventhWindow](Images/SeventhWindow.png)
 
