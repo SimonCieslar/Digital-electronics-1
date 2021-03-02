@@ -18,8 +18,8 @@
 
 ### 1.1. Figure or table with connection of 16 slide switches and 16 LEDs on Nexys A7 board.
 
-| **SW** | **SW pins** | **SW Connection type** | **LEDs** | **LED pins** | **SW Connection Type**  |
-| :-: | :-: | :-: | :-: | :-: | :-: |
+| **SW** | **SW pins** | **SW Connection type** |****| **LEDs** | **LED pins** | **SW Connection Type**  |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | 1  | J15 | IOSTANDARD LVCMOS33 | 1  | H17 |IOSTANDARD LVCMOS33 |
 | 2  | L16 | IOSTANDARD LVCMOS33 | 2  | K15 |IOSTANDARD LVCMOS33 |
 | 3  | M13 | IOSTANDARD LVCMOS33 | 3  | J13 |IOSTANDARD LVCMOS33 |
