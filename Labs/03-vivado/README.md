@@ -109,7 +109,7 @@ Now click again the button `NEXT`...
 
 ![FourthWindow](Images/FourthWindow.png)
 
-Now we see a window called Add Sources.
+Now we see a window called **Add Sources**.
 
 ![FifthWindow](Images/FifthWindow.png)
 
