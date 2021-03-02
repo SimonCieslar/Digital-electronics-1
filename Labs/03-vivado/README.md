@@ -20,7 +20,7 @@
 
 **Table created from Nexys A7™ FPGA Board Reference Manual**
 
-![I_o_interface](Images/I_o_interface.png)
+![I_o_interface](Images/interface.png)
 
 | **SW** | **SW pins** | **SW Connection type** |****| **LEDs** | **LED pins** | **SW Connection Type**  |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
