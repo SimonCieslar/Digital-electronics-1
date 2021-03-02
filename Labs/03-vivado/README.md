@@ -90,3 +90,19 @@ end architecture Behavioral;
 ## 3. A Vivado tutorial.
 
 ### 3.1. Your tutorial for Vivado design flow: project creation, adding source file, adding testbench file, running simulation, (adding XDC constraints file).
+
+If you want to create a project in Vivado, you can try the following tutorial
+
+This window will appear when you start Vivado...
+![FirstWindow](Images/FirstWindow.png)
+
+Now you can open an existing project (`Open Project`) or start a new one (`Create Project`)
+We will continue to create a new project (`Create Project`)...
+
+![SecondWindow](Images/SecondWindow.png)
+
+Click the button `NEXT`. Now we see a window where we can name the project and set the location...
+
+![ThirdWindow](Images/ThirdWindow.png)
+
+
