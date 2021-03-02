@@ -18,6 +18,10 @@
 
 ### 1.1. Figure or table with connection of 16 slide switches and 16 LEDs on Nexys A7 board.
 
+**Table created from Nexys A7™ FPGA Board Reference Manual**
+
+![I_o_interface](Images/I_o_interface.png)
+
 | **SW** | **SW pins** | **SW Connection type** |****| **LEDs** | **LED pins** | **SW Connection Type**  |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | 1  | J15 | IOSTANDARD LVCMOS33 | | 1  | H17 |IOSTANDARD LVCMOS33 |
