@@ -39,7 +39,6 @@ end architecture Behavioral;
 ```vhdl
     p_stimulus : process
     begin
-        -- Report a note at the begining of stimulus process
         report "Stimulus process started" severity note;
 
 
@@ -56,7 +55,6 @@ end architecture Behavioral;
         s_sel <= "10"; wait for 100 ns;
 
         
-        -- Report a note at the end of stimulus process
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;
