@@ -2,7 +2,7 @@
 
 1. A half adder has two inputs A and B and two outputs Carry and Sum. Complete the half adder truth table. Draw a logic diagram of both output functions.
 
-![Half_Adder](Images/Half_Adder.jpg)
+![Half_Adder](Images/Half_Adder.png)
 
     | **B** | **A** | **Carry** | **Sum** |
     | :-: | :-: | :-: | :-: |
@@ -13,7 +13,7 @@
 
 2. A full adder has three inputs and two outputs. The two inputs are A, B, and Carry input. The outputs are Carry output and Sum. Complete the full adder truth table and draw a logic diagram of both output functions.
 
-![Full_Adder](Images/Full_Adder.jpg)
+![Full_Adder](Images/Full_Adder.png)
 
     | **Cin** | **B** | **A** | **Cout** | **Sum** |
     | :-: | :-: | :-: | :-: | :-: |
