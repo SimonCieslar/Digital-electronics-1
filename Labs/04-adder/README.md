@@ -29,3 +29,24 @@
 3. Find the relationship between half adder and full adder logic diagrams.
 
 4. See schematic of the [CPLD expansion board](../../Docs/cpld_expansion.pdf) and find out the connection of LEDs, push buttons, and slide switches.
+
+Complete the decoder truth table for common anode 7-segment display.
+
+| **Hex** | **Inputs** | **A** | **B** | **C** | **D** | **E** | **F** | **G** |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| 0 | 0000 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| 1 | 0001 | 1 | 0 | 0 | 1 | 1 | 1 | 1 |
+| 2 |      |   |   |   |   |   |   |   |
+| 3 |      |   |   |   |   |   |   |   |
+| 4 |      |   |   |   |   |   |   |   |
+| 5 |      |   |   |   |   |   |   |   |
+| 6 |      |   |   |   |   |   |   |   |
+| 7 |      |   |   |   |   |   |   |   |
+| 8 | 1000 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 9 |      |   |   |   |   |   |   |   |
+| A |      |   |   |   |   |   |   |   |
+| b |      |   |   |   |   |   |   |   |
+| C |      |   |   |   |   |   |   |   |
+| d |      |   |   |   |   |   |   |   |
+| E | 1110 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
+| F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
