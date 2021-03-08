@@ -58,10 +58,7 @@ begin
             when "0000" =>
                 seg_o <= "0000001";     -- 0
             when "0001" =>
-                seg_o <= "1001111";     -- 1  Binírnì zobrazit
-    
-            -- WRITE YOUR CODE HERE
-    
+                seg_o <= "1001111";     -- 1  Binírnì zobrazit   
             when "0010" =>
                 seg_o <= "0010010";     -- 2
             when "0011" =>
