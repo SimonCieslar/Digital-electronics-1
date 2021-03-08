@@ -137,6 +137,8 @@
 
 ### 2.3. Screenshot with simulated time waveforms; always display all inputs and outputs
 
+![Screenshot_waveforms](Images/Screenshot_waveforms.png)
+
 ### 2.4. Listing of VHDL code from source file `top.vhd` with 7-segment module instantiation
 
 ```vhdl
