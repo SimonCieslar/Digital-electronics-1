@@ -202,5 +202,5 @@ end Behavioral;
 
 ### 3.2. Screenshot with simulated time waveforms; always display all inputs and outputs
 
-
+![Screenshot_waveforms_2](Images/Screenshot_waveforms_2.png)
 
