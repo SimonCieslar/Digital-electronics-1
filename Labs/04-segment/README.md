@@ -52,8 +52,6 @@
 ### 2.1. Listing of VHDL architecture from source file `hex_7seg.vhd` with syntax highlighting
 
 ```vhdl
-architecture behavioral of hex_7seg is
-begin
  p_7seg_decoder : process(hex_i)
     begin
         case hex_i is
@@ -91,8 +89,6 @@ begin
                 seg_o <= "0111000";     -- F
         end case;
     end process p_7seg_decoder;
-
-end architecture behavioral;
 ```
 
 ### 2.2. Listing of VHDL stimulus process from testbench file `tb_hex_7seg.vhd` with syntax highlighting and asserts
