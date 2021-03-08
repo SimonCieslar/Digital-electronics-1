@@ -16,11 +16,13 @@
     * Truth table and listing of VHDL code for LEDs(7:4) with syntax highlighting,
     * Screenshot with simulated time waveforms; always display all inputs and outputs.
     
-##1. Preparation tasks (done before the lab at home).
+## 1. Preparation tasks (done before the lab at home).
 
-###1.1. Figure or table with connection of 7-segment displays on Nexys A7 board
+### 1.1. Figure or table with connection of 7-segment displays on Nexys A7 board
 
-###1.2. Decoder truth table for common anode 7-segment display
+![I_o_interface](Images/interface.png)
+
+### 1.2. Decoder truth table for common anode 7-segment display
 
 | **Hex** | **Input** | **A** | **B** | **C** | **D** | **E** | **F** | **G** |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -41,7 +43,7 @@
 | E | 1110 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
 
-##2. Seven-segment display decoder.
+## 2. Seven-segment display decoder.
 
 ### 2.1. Listing of VHDL architecture from source file `hex_7seg.vhd` with syntax highlighting
 
@@ -52,4 +54,4 @@
 ### 2.4. Listing of VHDL code from source file `top.vhd` with 7-segment module instantiation
 
 
-##3. LED(7:4) indicators.
+## 3. LED(7:4) indicators.
