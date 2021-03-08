@@ -43,6 +43,7 @@
 | E | 1110 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
 
+7 Segemnt formulation numbers and letters
 ![7_segment_numbers](Images/7_Segment_Display_Number.png)
 
 ## 2. Seven-segment display decoder.
