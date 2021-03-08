@@ -43,6 +43,8 @@
 | E | 1110 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
 
+![7_segment_numbers](Images/7_Segment_Display_Number.png)
+
 ## 2. Seven-segment display decoder.
 
 ### 2.1. Listing of VHDL architecture from source file `hex_7seg.vhd` with syntax highlighting
