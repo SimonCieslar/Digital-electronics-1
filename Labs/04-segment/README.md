@@ -133,7 +133,7 @@
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;
-    ```
+```
 
 ### 2.3. Screenshot with simulated time waveforms; always display all inputs and outputs
 
