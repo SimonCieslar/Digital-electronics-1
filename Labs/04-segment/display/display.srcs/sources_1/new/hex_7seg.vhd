@@ -2,7 +2,7 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date: 03.03.2021 15:15:46
+-- Create Date: 03.03.2021 15:15:39
 -- Design Name: 
 -- Module Name: hex_7seg - Behavioral
 -- Project Name: 
@@ -32,17 +32,15 @@ use IEEE.STD_LOGIC_1164.ALL;
 --use UNISIM.VComponents.all;
 
 entity hex_7seg is
-    Port 
+    Port
     (
-         hex_i : in  STD_LOGIC_VECTOR (4 - 1 downto 0); --Input binary data
-         seg_o : out STD_LOGIC_VECTOR (7 - 1 downto 0) --Cathode values in the order A, B, C, D, E, F, G
-    );
+       hex_i :  in  STD_LOGIC_VECTOR (4 - 1 downto 0);  --Input binary data
+       seg_o :  out STD_LOGIC_VECTOR (7 - 1 downto 0)   --Cathode values in the order A, B, C, D, E, F, G
+     );
 end hex_7seg;
-
 ------------------------------------------------------------------------
 -- Architecture body for seven-segment display decoder
 ------------------------------------------------------------------------
-
 architecture behavioral of hex_7seg is
 begin
 
@@ -58,7 +56,7 @@ begin
             when "0000" =>
                 seg_o <= "0000001";     -- 0
             when "0001" =>
-                seg_o <= "1001111";     -- 1  Binírnì zobrazit   
+                seg_o <= "1001111";     -- 1
             when "0010" =>
                 seg_o <= "0010010";     -- 2
             when "0011" =>
@@ -71,7 +69,7 @@ begin
                 seg_o <= "0100000";     -- 6
             when "0111" =>
                 seg_o <= "0001111";     -- 7
-           when "1000" =>
+            when "1000" =>
                 seg_o <= "0000000";     -- 8
             when "1001" =>
                 seg_o <= "0000100";     -- 9
