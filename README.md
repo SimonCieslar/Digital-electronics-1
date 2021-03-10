@@ -2,10 +2,6 @@
 
 ## LABS
 
-https://www.edaplayground.com/x/fwdr
-
-**Sources code** Snad to jede
-
 # H1
 ## H2
 ### H3
