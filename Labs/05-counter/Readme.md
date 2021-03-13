@@ -55,10 +55,12 @@ Calculate how many periods of clock signal with frequency of 100&nbsp;MHz contai
    | 500&nbsp;ms | 50 000 000 | `x"2FA_F080"` | `b"0010_1111_1010_1111_0000_1000_0000"` |
    | 1&nbsp;sec | 100 000 000 | `x"5F5_E100"` | `b"0101_1111_0101_1110_0001_0000_0000"` |
    
-   ## 2. Bidirectional counter
+## 2. Bidirectional counter
    
-   ### 2.1. Listing of VHDL code of the process `p_cnt_up_down` with syntax highlighting
+### 2.1. Listing of VHDL code of the process `p_cnt_up_down` with syntax highlighting
    
-   ### 2.2. Listing of VHDL reset and stimulus processes from testbench file `tb_cnt_up_down.vhd` with syntax highlighting and asserts
+### 2.2. Listing of VHDL reset and stimulus processes from testbench file `tb_cnt_up_down.vhd` with syntax highlighting and asserts
    
-   ### 2.3. Screenshot with simulated time waveforms; always display all inputs and outputs
+### 2.3. Screenshot with simulated time waveforms; always display all inputs and outputs
+
+## 3. Top level
