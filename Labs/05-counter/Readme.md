@@ -149,7 +149,6 @@ Calculate how many periods of clock signal with frequency of 100&nbsp;MHz contai
             reset => BTNC, 
             ce_o  => s_en
         );
-
     --------------------------------------------------------------------
     -- Instance (copy) of cnt_up_down entity
     bin_cnt0 : entity work.cnt_up_down
@@ -166,7 +165,6 @@ Calculate how many periods of clock signal with frequency of 100&nbsp;MHz contai
 
     -- Display input value on LEDs
     LED(3 downto 0) <= s_cnt;
-
     --------------------------------------------------------------------
     -- Instance (copy) of hex_7seg entity
     hex2seg : entity work.hex_7seg
