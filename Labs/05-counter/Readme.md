@@ -134,3 +134,5 @@ Calculate how many periods of clock signal with frequency of 100&nbsp;MHz contai
 ![Waveform3](Images/Waveform_3.png)
 
 ## 3. Top level
+
+### 3.1. Listing of VHDL code from source file `top.vhd` with all instantiations for the 4-bit bidirectional counter
