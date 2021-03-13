@@ -85,7 +85,7 @@ Calculate how many periods of clock signal with frequency of 100&nbsp;MHz contai
 ### 2.2. Listing of VHDL reset and stimulus processes from testbench file `tb_cnt_up_down.vhd` with syntax highlighting and asserts
 
 ```vhdl
- --------------------------------------------------------------------
+    --------------------------------------------------------------------
     -- Reset generation process
     --------------------------------------------------------------------
     p_reset_gen : process
@@ -126,5 +126,7 @@ Calculate how many periods of clock signal with frequency of 100&nbsp;MHz contai
 ```
    
 ### 2.3. Screenshot with simulated time waveforms; always display all inputs and outputs
+
+![Waveform](Images/Waveform.png)
 
 ## 3. Top level
