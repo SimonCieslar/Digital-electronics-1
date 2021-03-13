@@ -58,6 +58,28 @@ Calculate how many periods of clock signal with frequency of 100&nbsp;MHz contai
 ## 2. Bidirectional counter
    
 ### 2.1. Listing of VHDL code of the process `p_cnt_up_down` with syntax highlighting
+```vhdl
+    p_cnt_up_down : process(clk)
+    begin
+        if rising_edge(clk) then
+        
+            if (reset = '1') then               -- Synchronous reset
+                s_cnt_local <= (others => '0'); -- Clear all bits
+
+            elsif (en_i = '1') then       -- Test if counter is enabled
+                
+                -- TEST COUNTER DIRECTION HERE
+                if (cnt_up_i = '1') then
+
+                s_cnt_local <= s_cnt_local + 1;             
+                else             
+                s_cnt_local <= s_cnt_local - 1;            
+                end if;
+
+            end if;
+        end if;
+    end process p_cnt_up_down;
+```
    
 ### 2.2. Listing of VHDL reset and stimulus processes from testbench file `tb_cnt_up_down.vhd` with syntax highlighting and asserts
    
