@@ -34,7 +34,7 @@
    | BTNC | 3,3 V | 0V | N17 |
    | BTNRES | 3,3 V | 0V | C12 |
    
- **Circuit diagram
+ **Circuit diagram**
  
    ![Interface](Images/interface.png)
 
