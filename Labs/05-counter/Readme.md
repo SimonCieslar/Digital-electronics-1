@@ -136,3 +136,5 @@ Calculate how many periods of clock signal with frequency of 100&nbsp;MHz contai
 ## 3. Top level
 
 ### 3.1. Listing of VHDL code from source file `top.vhd` with all instantiations for the 4-bit bidirectional counter
+
+### 3.2. (Hand-drawn) sketch of the top layer including both counters, ie a 4-bit bidirectional counter from Part 4 and a 16-bit counter with a different time base from Part Experiments on your own.
