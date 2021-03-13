@@ -35,6 +35,10 @@ The Nexys A7 board provides five push buttons for user applications. See schemat
    | BTND | 3,3 V | 0V | P18 |
    | BTNC | 3,3 V | 0V | N17 |
    | BTNRES | 3,3 V | 0V | C12 |
+   
+ **Circuit diagram
+ 
+   ![Interface](Images/interface.png)
 
 ### 1.2. Table with calculated values
 
