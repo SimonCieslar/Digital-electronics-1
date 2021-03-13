@@ -69,8 +69,10 @@ Calculate how many periods of clock signal with frequency of 100&nbsp;MHz contai
             elsif (en_i = '1') then 
                 
                 if (cnt_up_i = '1') then
+                
                 s_cnt_local <= s_cnt_local + 1;             
-                else             
+                else         
+                
                 s_cnt_local <= s_cnt_local - 1;            
                 end if;
 
