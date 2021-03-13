@@ -127,6 +127,10 @@ Calculate how many periods of clock signal with frequency of 100&nbsp;MHz contai
    
 ### 2.3. Screenshot with simulated time waveforms; always display all inputs and outputs
 
-![Waveform](Images/Waveform.png)
+![Waveform1](Images/Waveform.png)
+
+![Waveform2](Images/Waveform_2.png)
+
+![Waveform3](Images/Waveform_3.png)
 
 ## 3. Top level
