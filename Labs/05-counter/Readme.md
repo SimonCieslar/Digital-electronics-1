@@ -25,8 +25,6 @@
 
 ### 1.1. Figure or table with connection of push buttons on Nexys A7 board
 
-The Nexys A7 board provides five push buttons for user applications. See schematic or reference manual of the Nexys A7 board and find out the connection of these push buttons, ie to which FPGA pins are connected and how (schema). What logic/voltage value do the buttons generate when not pressed and what value when the buttons are pressed?
-
  | **Button name** | **Voltage when on** | **Voltage when off** | **Pin** |
    | :-: | :-: | :-: | :-: |
    | BTNL | 3,3 V | 0V | P17 |
