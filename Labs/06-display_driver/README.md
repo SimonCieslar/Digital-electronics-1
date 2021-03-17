@@ -22,7 +22,9 @@
 3. Eight-digit driver. Submit:
     * Image of the driver schematic. The image can be drawn on a computer or by hand.
 
-## 1.
+## 1. Preparation tasks
+
+### 1.1. Timing diagram figure for displaying value `3.142`
 
 ![Timing of seven-segment display](Images/wavedrom_7-segment.png)
 
@@ -54,3 +56,7 @@
   },
 }
 ```
+
+## 2. Display driver
+
+## 3.
