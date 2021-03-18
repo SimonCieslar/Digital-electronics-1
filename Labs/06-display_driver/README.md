@@ -186,6 +186,7 @@ begin
         s_reset <= '0';
         wait for 660 ns;
 
+
     end process p_reset_gen;
 
     --------------------------------------------------------------------
@@ -200,7 +201,15 @@ begin
         s_data1 <= "0100";
         s_data0 <= "0010";
         
-        s_dp_i  <= "0111";              
+        s_dp_i  <= "0111";
+        
+        --wait for 350 ns;
+        
+        --s_data3 <= "0001";
+        --s_data2 <= "0000";
+        --s_data1 <= "0001";
+        --s_data0 <= "0000";
+        
 
         report "Stimulus process finished" severity note;
         wait;
