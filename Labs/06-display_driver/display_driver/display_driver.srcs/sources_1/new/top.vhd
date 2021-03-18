@@ -96,5 +96,4 @@ begin
             dp_i        => "0111",
             dp_o        => DP
         );
-
 end architecture Behavioral;

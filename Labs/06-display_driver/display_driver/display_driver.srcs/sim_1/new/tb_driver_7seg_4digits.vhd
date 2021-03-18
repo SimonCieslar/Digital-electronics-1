@@ -93,7 +93,7 @@ begin
         s_reset <= '0';
         wait for 660 ns;
 
-        wait;
+
     end process p_reset_gen;
 
     --------------------------------------------------------------------
