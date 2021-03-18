@@ -59,4 +59,14 @@
 
 ## 2. Display driver
 
-## 3.
+### 2.1. Listing of VHDL code of the process `p_mux` with syntax highlighting
+
+### 2.2. Listing of VHDL testbench file `tb_driver_7seg_4digits` with syntax highlighting and asserts
+
+### 2.3. Screenshot with simulated time waveforms; always display all inputs and outputs
+
+### 2.4. Listing of VHDL architecture of the top layer
+
+## 3. Eight-digit driver
+
+### 3.1. Image of the driver schematic
