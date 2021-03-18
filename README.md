@@ -2,12 +2,12 @@
 
 ## LABS
 
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
+# H1 NADPIS
+## H2 NADPIS
+### H3 NADPIS
+#### H4 NADPIS
+##### H5 NADPIS
+###### H6 NADPIS
 
 Alternatively, for H1 and H2, an underline-ish style:
 
