@@ -276,3 +276,5 @@ end architecture Behavioral;
 ## 3. Eight-digit driver
 
 ### 3.1. Image of the driver schematic
+
+![Display_driver_schematic](Images/06-display-shcmetic.png)
