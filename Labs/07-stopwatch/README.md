@@ -1,3 +1,5 @@
+# Labs - 07 - Stopwatch
+
 ## Preparation tasks (done before the lab at home)
 
 Consider the clock enable circuit from previous laboratories and find out the values of its parameter `g_MAX` so that the output signal `ce_o` has the frequency 100&nbsp;Hz or 1&nbsp;kHz. Let the frequency of the main clock signal be 100&nbsp;MHz.
