@@ -1,15 +1,15 @@
-# Labs - 08 - Latches and Flip-flops
+# Labs - 07 - Latches and Flip-flops
 
 ## Preparation tasks (done before the lab at home)
 
-Write characteristic equations and complete truth tables for D, JK, T flip-flops where `Qn` represents main output value before clock edge and `Q(n+1)` represents value after the edge.
+Write characteristic equations and complete truth tables for D, JK, T flip-flops where `q(n)` represents main output value before the clock edge and `q(n+1)` represents value after the clock edge.
 
-   | **D** | **Qn** | **Q(n+1)** | **Comments** |
-   | :-: | :-: | :-: | :-- |
-   | 0 | 0 | 1 | Change |
-   | 0 | 0 | 1 | No change |
-   | 1 | 0 | 1 | Change |
-   | 1 | 1 | 0 | No change |
+   | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
+   | :-: | :-: | :-: | :-: | :-- |
+   | ![rising](Images/eq_uparrow.png) | 0 | 0 | 1 | Change |
+   | ![rising](Images/eq_uparrow.png) | 0 | 0 | 1 | No change |
+   | ![rising](Images/eq_uparrow.png) | 1 | 0 | 1 | Change |
+   | ![rising](Images/eq_uparrow.png) | 1 | 1 | 0 | No change |
 
    | **J** | **K** | **Qn** | **Q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
