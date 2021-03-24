@@ -1,10 +1,29 @@
 # Labs - 07 - Latches and Flip-flops
 
-## Preparation tasks (done before the lab at home)
+## Lab assignment
 
-Write characteristic equations and complete truth tables for D, JK, T flip-flops where `q(n)` represents main output value before the clock edge and `q(n+1)` represents value after the clock edge.
+1. Preparation tasks (done before the lab at home). Submit:
+    * Characteristic equations and completed tables for D, JK, T flip-flops.
 
-![Characteristic equations](Images/eq_flip_flops.png)
+2. D latch. Submit:
+    * VHDL code listing of the process `p_d_latch` with syntax highlighting,
+    * Listing of VHDL reset and stimulus processes from the testbench `tb_d_latch.vhd` file with syntax highlighting and asserts,
+    * Screenshot with simulated time waveforms; always display all inputs and outputs. The full functionality of the entity must be verified.
+
+3. Flip-flops. Submit:
+    * VHDL code listing of the processes `p_d_ff_arst`, `p_d_ff_rst`, `p_jk_ff_rst`, `p_t_ff_rst` with syntax highlighting,
+    * Listing of VHDL clock, reset and stimulus processes from the testbench files with syntax highlighting and asserts,
+    * Screenshot with simulated time waveforms; always display all inputs and outputs. The full functionality of the entities must be verified.
+
+4. Shift register. Submit:
+    * Image of the shift register schematic. The image can be drawn on a computer or by hand. Name all inputs, outputs, components and internal signals.
+
+## 1. Preparation tasks
+
+### 1.1. Characteristic equations and completed tables for D, JK, T flip-flops
+
+![Characteristic equations](Images/eq_flip_flops_complete.png)
+
    | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
    | ![rising](Images/eq_uparrow.png) | 0 | 0 | 0 | Change |
@@ -29,21 +48,11 @@ Write characteristic equations and complete truth tables for D, JK, T flip-flops
    | ![rising](Images/eq_uparrow.png) | 0 | 1 | 1 | No change |
    | ![rising](Images/eq_uparrow.png) | 1 | 0 | 1 | Invert |
    | ![rising](Images/eq_uparrow.png) | 1 | 1 | 0 | Invert |
+   
+## 2. D latch
 
-## Lab assignment
+### 2.1. VHDL code listing of the process `p_d_latch` with syntax highlighting
 
-1. Preparation tasks (done before the lab at home). Submit:
-    * Characteristic equations and completed tables for D, JK, T flip-flops.
+### 2.2. Listing of VHDL reset and stimulus processes from the testbench `tb_d_latch.vhd` file with syntax highlighting and asserts
 
-2. D latch. Submit:
-    * VHDL code listing of the process `p_d_latch` with syntax highlighting,
-    * Listing of VHDL reset and stimulus processes from the testbench `tb_d_latch.vhd` file with syntax highlighting and asserts,
-    * Screenshot with simulated time waveforms; always display all inputs and outputs. The full functionality of the entity must be verified.
-
-3. Flip-flops. Submit:
-    * VHDL code listing of the processes `p_d_ff_arst`, `p_d_ff_rst`, `p_jk_ff_rst`, `p_t_ff_rst` with syntax highlighting,
-    * Listing of VHDL clock, reset and stimulus processes from the testbench files with syntax highlighting and asserts,
-    * Screenshot with simulated time waveforms; always display all inputs and outputs. The full functionality of the entities must be verified.
-
-4. Shift register. Submit:
-    * Image of the shift register schematic. The image can be drawn on a computer or by hand. Name all inputs, outputs, components and internal signals.
+### 2.3. Screenshot with simulated time waveforms; always display all inputs and outputs. The full functionality of the entity must be verified
