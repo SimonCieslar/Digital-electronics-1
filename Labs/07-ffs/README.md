@@ -7,10 +7,10 @@ Write characteristic equations and complete truth tables for D, JK, T flip-flops
 ![Characteristic equations](Images/eq_flip_flops.png)
    | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
-   | ![rising](Images/eq_uparrow.png) | 0 | 0 | 1 | Change |
-   | ![rising](Images/eq_uparrow.png) | 0 | 0 | 1 | No change |
-   | ![rising](Images/eq_uparrow.png) | 1 | 0 | 1 | Change |
-   | ![rising](Images/eq_uparrow.png) | 1 | 1 | 0 | No change |
+   | ![rising](Images/eq_uparrow.png) | 0 | 0 | 0 | Change |
+   | ![rising](Images/eq_uparrow.png) | 0 | 1 | 0 | No change |
+   | ![rising](Images/eq_uparrow.png) | 1 | 1 | 1 | Change |
+   | ![rising](Images/eq_uparrow.png) | 1 | 0 | 1 | No change |
 
    | **clk** | **j** | **k** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-: | :-- |
