@@ -156,3 +156,9 @@
 ![d_latch_waveform](Images/d_latch_waveform.png)
 
 ## 3. Flip-flops
+
+### 3.1. VHDL code listing of the processes `p_d_ff_arst`, `p_d_ff_rst`, `p_jk_ff_rst`, `p_t_ff_rst` with syntax highlighting
+
+### 3.2. Listing of VHDL clock, reset and stimulus processes from the testbench files with syntax highlighting and asserts
+
+### 3.3. Screenshot with simulated time waveforms; always display all inputs and outputs. The full functionality of the entities must be verified
