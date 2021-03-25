@@ -131,20 +131,6 @@
     s_d  <= '0';
     --/d sekv
     
-    --d sekv
-    wait for 10 ns;
-    s_d  <= '1';
-    wait for 10 ns;
-    s_d  <= '0';
-    wait for 10 ns;
-    s_d  <= '1';
-    wait for 10 ns;
-    s_d  <= '0';
-    wait for 10 ns;
-    s_d  <= '1';
-    wait for 10 ns;
-    s_d  <= '0';
-    --/d sekv
     report "Stimulus process finished" severity note;
     wait;
     end process p_stimulus;
