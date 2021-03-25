@@ -1,7 +1,9 @@
 # Digital-electronics-1
 
 i ... zpráva
+
 esc 
+
 :x
 
 ## LABS
