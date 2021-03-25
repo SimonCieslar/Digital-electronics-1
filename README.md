@@ -1,5 +1,9 @@
 # Digital-electronics-1
 
+i ... zpráva
+esc 
+:x
+
 ## LABS
 
 # H1 NADPIS
