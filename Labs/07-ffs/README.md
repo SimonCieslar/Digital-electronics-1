@@ -69,4 +69,85 @@
 
 ### 2.2. Listing of VHDL reset and stimulus processes from the testbench `tb_d_latch.vhd` file with syntax highlighting and asserts
 
+```vhdl
+    p_stimulus  : process
+    begin
+    report "Stimulus process started" severity note;
+    s_d  <= '0';
+    s_en <= '0';
+    
+    assert(s_q = '0')
+    report "Error" severity error;
+    
+    --d sekv
+    wait for 10 ns;
+    s_d  <= '1';
+    wait for 10 ns;
+    s_d  <= '0';
+    wait for 10 ns;
+    s_d  <= '1';
+    wait for 10 ns;
+    s_d  <= '0';
+    wait for 10 ns;
+    s_d  <= '1';
+    wait for 10 ns;
+    s_d  <= '0';
+    --/d sekv
+    
+    assert(s_q = '0' and s_q_bar = '1')
+    report "Error" severity error;
+    
+    s_en <= '1';
+    
+    --d sekv
+    wait for 10 ns;
+    s_d  <= '1';
+    wait for 10 ns;
+    s_d  <= '0';
+    wait for 10 ns;
+    s_d  <= '1';
+    wait for 10 ns;
+    s_d  <= '0';
+    wait for 10 ns;
+    s_d  <= '1';
+    wait for 10 ns;
+    s_d  <= '0';  -- en to 0
+    wait for 200 ns;
+    s_d  <= '0';    
+    --/d sekv
+    
+    --d sekv
+    wait for 10 ns;
+    s_d  <= '1';
+    wait for 10 ns;
+    s_d  <= '0';
+    wait for 10 ns;
+    s_d  <= '1';
+    wait for 10 ns;
+    s_d  <= '0';
+    wait for 10 ns;
+    s_d  <= '1';
+    wait for 10 ns;
+    s_d  <= '0';
+    --/d sekv
+    
+    --d sekv
+    wait for 10 ns;
+    s_d  <= '1';
+    wait for 10 ns;
+    s_d  <= '0';
+    wait for 10 ns;
+    s_d  <= '1';
+    wait for 10 ns;
+    s_d  <= '0';
+    wait for 10 ns;
+    s_d  <= '1';
+    wait for 10 ns;
+    s_d  <= '0';
+    --/d sekv
+    report "Stimulus process finished" severity note;
+    wait;
+    end process p_stimulus;
+```    
+
 ### 2.3. Screenshot with simulated time waveforms; always display all inputs and outputs. The full functionality of the entity must be verified
