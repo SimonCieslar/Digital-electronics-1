@@ -152,3 +152,7 @@
 ```    
 
 ### 2.3. Screenshot with simulated time waveforms; always display all inputs and outputs. The full functionality of the entity must be verified
+
+![d_latch_waveform](Images/d_latch_waveform.png)
+
+## 3. Flip-flops
