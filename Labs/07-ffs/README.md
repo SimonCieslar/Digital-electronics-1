@@ -259,4 +259,53 @@ Stimulus process from the testbench `tb_d_ff_arst`
     end process p_stimulus;
 ```
 
+Stimulus process from the testbench `tb_jk_ff_rst`
+
+```vhdl
+    p_stimulus : process
+    begin
+        report "Stimulus process started" severity note;
+        s_j <= '0';
+        s_k <= '0';
+        
+        --d sekv
+        wait for 37 ns;
+        s_j <= '0';
+        s_k <= '0';        
+        wait for 3 ns;
+        s_j <= '1';
+        s_k <= '0';                       
+        wait for 7 ns;
+        s_j <= '0';
+        s_k <= '1';        
+        wait for 14 ns;
+        s_j <= '1';
+        s_k <= '0';       
+        wait for 7 ns;
+        s_j <= '1';
+        s_k <= '1';
+        --/d sekv
+        
+        --d sekv
+        wait for 7 ns;
+        s_j <= '0';
+        s_k <= '0';             
+        wait for 7 ns;
+        s_j <= '0';
+        s_k <= '1';     
+        wait for 7 ns;
+        s_j <= '1';
+        s_k <= '0';     
+        wait for 7 ns;
+        s_j <= '1';
+        s_k <= '1';
+        --/d sekv
+        
+        
+
+        report "Stimulus process finished" severity note;
+        wait;
+    end process p_stimulus;
+```
+
 ### 3.3. Screenshot with simulated time waveforms; always display all inputs and outputs. The full functionality of the entities must be verified
