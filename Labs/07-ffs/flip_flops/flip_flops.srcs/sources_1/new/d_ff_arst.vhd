@@ -45,7 +45,7 @@ architecture Behavioral of d_ff_arst is
 
 begin
 
-    p_ff_arst : process (clk, arst)             
+    p_d_ff_arst : process (clk, arst)             
     begin                                         
         if (arst = '1') then                      
             q     <= '0';                         
@@ -55,6 +55,6 @@ begin
             q     <= d;                               
             q_bar <= not d;                       
         end if;                                   
-    end process p_ff_arst;                        
+    end process p_d_ff_arst;                        
 
 end Behavioral;

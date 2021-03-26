@@ -107,20 +107,16 @@ begin
         --d sekv
         wait for 37 ns;
         s_j <= '0';
-        s_k <= '0';
-        
+        s_k <= '0';        
         wait for 3 ns;
         s_j <= '1';
-        s_k <= '0';
-                        
+        s_k <= '0';                       
         wait for 7 ns;
         s_j <= '0';
-        s_k <= '1';
-        
+        s_k <= '1';        
         wait for 14 ns;
         s_j <= '1';
-        s_k <= '0';
-        
+        s_k <= '0';       
         wait for 7 ns;
         s_j <= '1';
         s_k <= '1';
@@ -129,16 +125,13 @@ begin
         --d sekv
         wait for 7 ns;
         s_j <= '0';
-        s_k <= '0';
-              
+        s_k <= '0';             
         wait for 7 ns;
         s_j <= '0';
-        s_k <= '1';
-      
+        s_k <= '1';     
         wait for 7 ns;
         s_j <= '1';
-        s_k <= '0';
-      
+        s_k <= '0';     
         wait for 7 ns;
         s_j <= '1';
         s_k <= '1';
