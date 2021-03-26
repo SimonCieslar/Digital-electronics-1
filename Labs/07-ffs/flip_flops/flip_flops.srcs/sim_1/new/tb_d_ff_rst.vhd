@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date: 24.03.2021 13:54:45
+-- Create Date: 26.03.2021 10:16:28
 -- Design Name: 
--- Module Name: tb_d_ff_arst - Behavioral
+-- Module Name: tb_d_ff_rst - Behavioral
 -- Project Name: 
 -- Target Devices: 
 -- Tool Versions: 
@@ -31,30 +31,31 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity tb_d_ff_arst is
+entity tb_d_ff_rst is
 --  Port ( );
-end tb_d_ff_arst;
+end tb_d_ff_rst;
 
-architecture Behavioral of tb_d_ff_arst is
+architecture Behavioral of tb_d_ff_rst is
 
     constant c_CLK_100MHz_PERIOD : time    := 10 ns;
     
     signal s_clk_100MHz    : std_logic;
-    signal s_arst          : std_logic;
+    signal s_rst           : std_logic;
     signal s_d             : std_logic;
     signal s_q             : std_logic;
     signal s_q_bar         : std_logic;
 
 begin
 
- uut_d_ff_arst : entity work.d_ff_arst 
-    port map (
+    uut_d_ff_rst : entity work.d_ff_rst
+        port map (
          clk   => s_clk_100MHz,   
-         arst  => s_arst, 
+         rst  => s_rst, 
          d     => s_d,  
          q     => s_q,   
-         q_bar => s_q_bar
-            );
+         q_bar => s_q_bar        
+                 );
+
     ------------------------------------------
     --Clock generation process
     ------------------------------------------
@@ -68,65 +69,54 @@ begin
             end loop;
             wait;
         end process p_clk_gen;
+        
     ------------------------------------------
     --Reset generation process
     ------------------------------------------    
      p_reset_gen : process
         begin
-            s_arst <= '0';
-            wait for 28 ns;
+            s_rst <= '0';
+            wait for 12 ns;
             
             -- Reset activated
-            s_arst <= '1';
-            wait for 13 ns;
+            s_rst <= '1';
+            wait for 30 ns;
     
             -- Reset deactivated
-            s_arst <= '0';
-            
-            wait for 17 ns;
-            s_arst <= '1';
-            
-            wait for 33 ns;
-            s_arst <= '0';
-            
-            wait for 660 ns;
-            s_arst <= '1';
-    
+            s_rst <= '0';
             wait;
         end process p_reset_gen;
-
+        
     ------------------------------------------
     --Data generation process
     ------------------------------------------ 
     p_stimulus : process
     begin
         report "Stimulus process started" severity note;
-        s_d <= '0';
+        s_d <= '1';
         
         --d sekv
-        wait for 14 ns;
-        s_d  <= '1';
-        wait for 10 ns;
-        s_d  <= '0';
-        
-        wait for 6 ns;
---        assert()
---        report "";
-        
-        wait for 4 ns;
-        s_d  <= '1';
         wait for 10 ns;
         s_d  <= '0';
         wait for 10 ns;
-        s_d  <= '1';
+        s_d  <= '1';        
         wait for 10 ns;
-        s_d  <= '0';   
+        s_d  <= '0';
+        wait for 10 ns;
+        
+        assert(s_q = '0' and s_q_bar = '1')
+        report "Error - Failed" severity error;
+        
+        wait for 20 ns;
+        s_d  <= '1';
+        wait for 25 ns;
+        
+        assert(s_q = '1' and s_q_bar = '0')
+        report "Error - Failed" severity error;
         --/d sekv
         
         --d sekv
         wait for 10 ns;
-        s_d  <= '1';
-        wait for 10 ns;
         s_d  <= '0';
         wait for 10 ns;
         s_d  <= '1';
@@ -135,10 +125,12 @@ begin
         wait for 10 ns;
         s_d  <= '1';
         wait for 10 ns;
-        s_d  <= '0';   
+        s_d  <= '0';
+        wait for 10 ns;
+        s_d  <= '1';   
         --/d sekv
         
     report "Stimulus process finished" severity note;
     wait;
-    end process p_stimulus;
+    end process p_stimulus;        
 end Behavioral;

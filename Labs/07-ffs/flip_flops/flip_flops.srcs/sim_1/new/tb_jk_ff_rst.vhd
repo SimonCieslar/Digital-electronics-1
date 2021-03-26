@@ -137,8 +137,6 @@ begin
         s_k <= '1';
         --/d sekv
         
-        
-
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;
