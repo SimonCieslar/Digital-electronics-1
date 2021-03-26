@@ -177,6 +177,21 @@ Process `p_d_ff_arst`
 
 Process `p_d_ff_rst`
 
+```vhdl
+    p_d_ff_rst : process (clk)             
+    begin
+        if rising_edge(clk) then
+            if (rst = '1') then
+                q     <= '0';
+                q_bar <= '1';
+            else
+                q     <= d;
+                q_bar <= not d;
+            end if; 
+        end if;
+    end process p_d_ff_rst;
+```
+
 Process `p_jk_ff_rst`
 
 ```vhdl
