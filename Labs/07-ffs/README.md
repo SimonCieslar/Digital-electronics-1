@@ -329,3 +329,7 @@ Waveform for `jk_ff_rst`
 Waveform for `t_ff_rst`
 
 ![t_ff_rst_waveform](Images/t_ff_rst_waveform.png)
+
+## 4. Shift register
+
+### 4.1. Image of the shift register schematic. The image can be drawn on a computer or by hand. Name all inputs, outputs, components and internal signals
