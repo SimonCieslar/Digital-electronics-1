@@ -224,6 +224,29 @@ Process `p_jk_ff_rst`
 
 Process `p_t_ff_rst`
 
+```vhdl
+    p_t_ff_rst : process (clk)
+    begin
+        if rising_edge(clk) then
+            if (rst = '1') then
+                s_q     <= '0';
+                s_q_bar <= '1';
+            else
+                if (t = '0') then
+                    s_q     <= s_q;
+                    s_q_bar <= s_q_bar;
+                else
+                    s_q     <= not s_q;
+                    s_q_bar <= not s_q_bar;
+                end if;    
+            end if;
+        end if;
+    end process p_t_ff_rst;
+    
+    q     <= s_q;
+    q_bar <= s_q_bar;
+```    
+
 ### 3.2. Listing of VHDL clock, reset and stimulus processes from the testbench files with syntax highlighting and asserts
 
 Stimulus process from the testbench `tb_d_ff_arst`
