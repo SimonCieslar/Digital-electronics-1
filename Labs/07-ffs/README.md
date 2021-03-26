@@ -183,4 +183,52 @@ Process `p_t_ff_rst`
 
 ### 3.2. Listing of VHDL clock, reset and stimulus processes from the testbench files with syntax highlighting and asserts
 
+Stimulus process from the testbench `tb_d_ff_arst`
+
+```vhdl
+    p_stimulus : process
+    begin
+        report "Stimulus process started" severity note;
+        s_d <= '0';
+        
+        --d sekv
+        wait for 14 ns;
+        s_d  <= '1';
+        wait for 10 ns;
+        s_d  <= '0';
+        
+        wait for 6 ns;
+--        assert()
+--        report "";
+        
+        wait for 4 ns;
+        s_d  <= '1';
+        wait for 10 ns;
+        s_d  <= '0';
+        wait for 10 ns;
+        s_d  <= '1';
+        wait for 10 ns;
+        s_d  <= '0';   
+        --/d sekv
+        
+        --d sekv
+        wait for 10 ns;
+        s_d  <= '1';
+        wait for 10 ns;
+        s_d  <= '0';
+        wait for 10 ns;
+        s_d  <= '1';
+        wait for 10 ns;
+        s_d  <= '0';
+        wait for 10 ns;
+        s_d  <= '1';
+        wait for 10 ns;
+        s_d  <= '0';   
+        --/d sekv
+        
+    report "Stimulus process finished" severity note;
+    wait;
+    end process p_stimulus;
+```
+
 ### 3.3. Screenshot with simulated time waveforms; always display all inputs and outputs. The full functionality of the entities must be verified
