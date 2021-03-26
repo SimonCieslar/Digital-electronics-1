@@ -309,3 +309,19 @@ Stimulus process from the testbench `tb_jk_ff_rst`
 ```
 
 ### 3.3. Screenshot with simulated time waveforms; always display all inputs and outputs. The full functionality of the entities must be verified
+
+Waveform for `d_ff_arst`
+
+![d_ff_arst_waveform](Images/d_ff_arst_waveform.png)
+
+Waveform for `d_ff_rst`
+
+![d_ff_rst_waveform](Images/d_ff_rst_waveform.png)
+
+Waveform for `jk_ff_rst`
+
+![jk_ff_rst_waveform](Images/jk_ff_rst_waveform.png)
+
+Waveform for `t_ff_rst`
+
+![t_ff_rst_waveform](Images/t_ff_rst_waveform.png)
