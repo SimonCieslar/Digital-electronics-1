@@ -276,6 +276,52 @@ Stimulus process from the testbench `tb_d_ff_arst`
 
 Stimulus process from the testbench `tb_d_ff_rst`
 
+```vhdl
+    p_stimulus : process
+    begin
+        report "Stimulus process started" severity note;
+        s_d <= '1';
+        
+        --d sekv
+        wait for 10 ns;
+        s_d  <= '0';
+        wait for 10 ns;
+        s_d  <= '1';        
+        wait for 10 ns;
+        s_d  <= '0';
+        wait for 10 ns;
+        
+        assert(s_q = '0' and s_q_bar = '1')
+        report "Error - Failed" severity error;
+        
+        wait for 20 ns;
+        s_d  <= '1';
+        wait for 25 ns;
+        
+        assert(s_q = '1' and s_q_bar = '0')
+        report "Error - Failed" severity error;
+        --/d sekv
+        
+        --d sekv
+        wait for 10 ns;
+        s_d  <= '0';
+        wait for 10 ns;
+        s_d  <= '1';
+        wait for 10 ns;
+        s_d  <= '0';
+        wait for 10 ns;
+        s_d  <= '1';
+        wait for 10 ns;
+        s_d  <= '0';
+        wait for 10 ns;
+        s_d  <= '1';   
+        --/d sekv
+        
+    report "Stimulus process finished" severity note;
+    wait;
+    end process p_stimulus;
+```   
+
 Stimulus process from the testbench `tb_jk_ff_rst`
 
 ```vhdl
@@ -317,8 +363,6 @@ Stimulus process from the testbench `tb_jk_ff_rst`
         s_j <= '1';
         s_k <= '1';
         --/d sekv
-        
-        
 
         report "Stimulus process finished" severity note;
         wait;
