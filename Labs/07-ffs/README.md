@@ -259,6 +259,8 @@ Stimulus process from the testbench `tb_d_ff_arst`
     end process p_stimulus;
 ```
 
+Stimulus process from the testbench `tb_d_ff_rst`
+
 Stimulus process from the testbench `tb_jk_ff_rst`
 
 ```vhdl
@@ -307,6 +309,8 @@ Stimulus process from the testbench `tb_jk_ff_rst`
         wait;
     end process p_stimulus;
 ```
+
+Stimulus process from the testbench `tb_t_ff_rst`
 
 ### 3.3. Screenshot with simulated time waveforms; always display all inputs and outputs. The full functionality of the entities must be verified
 
