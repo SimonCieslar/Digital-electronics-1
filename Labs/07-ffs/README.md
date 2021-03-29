@@ -394,6 +394,32 @@ Stimulus process from the testbench `tb_jk_ff_rst`
 
 Stimulus process from the testbench `tb_t_ff_rst`
 
+```vhdl
+p_stimulus : process
+    begin
+        report "Stimulus process started" severity note;
+
+        wait for 20 ns;
+        s_t <= '1';  
+        wait for 10 ns;
+        s_t <= '0';                       
+        wait for 10 ns;
+        s_t <= '1';        
+        wait for 10 ns;
+        s_t <= '0';       
+        wait for 10 ns;
+        s_t <= '1';
+        wait for 10 ns;
+        s_t <= '0';
+
+        assert(s_q='1' and s_q_bar = '0')
+        report "Error" severity error;
+            
+        report "Stimulus process finished" severity note;
+        wait;
+    end process p_stimulus;
+```
+
 ### 3.3. Screenshot with simulated time waveforms; always display all inputs and outputs. The full functionality of the entities must be verified
 
 Waveform for `d_ff_arst`
