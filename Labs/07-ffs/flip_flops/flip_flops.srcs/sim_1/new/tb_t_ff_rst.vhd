@@ -90,5 +90,28 @@ begin
         
     ------------------------------------------
     --Data generation process
-    ------------------------------------------        
+    ------------------------------------------ 
+    p_stimulus : process
+    begin
+        report "Stimulus process started" severity note;
+
+        wait for 20 ns;
+        s_t <= '1';  
+        wait for 10 ns;
+        s_t <= '0';                       
+        wait for 10 ns;
+        s_t <= '1';        
+        wait for 10 ns;
+        s_t <= '0';       
+        wait for 10 ns;
+        s_t <= '1';
+        wait for 10 ns;
+        s_t <= '0';
+
+        assert(s_q='1' and s_q_bar = '0')
+        report "Error" severity error;
+            
+        report "Stimulus process finished" severity note;
+        wait;
+    end process p_stimulus;       
 end Behavioral;
