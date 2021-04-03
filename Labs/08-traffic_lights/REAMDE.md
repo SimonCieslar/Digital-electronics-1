@@ -166,14 +166,14 @@
 
 ## 3. Smart controller
 
-| **Current state** | **Direction South** | **Direction West** | **Delay** |
-| :-- | :-: | :-: | :-: |
-| `STOP1`      | red    | red | 1 sec |
-| `WEST_GO`    | red    | green | 4 sec |
-| `WEST_WAIT`  | red    | yellow | 2 sec |
-| `STOP2`      | red    | red | 1 sec |
-| `SOUTH_GO`   | green  | red | 4 sec |
-| `SOUTH_WAIT` | yellow | red | 2 sec |
+| **Current state** | **Direction South** | **Direction West** | **Delay** | **Input** |
+| :-- | :-: | :-: | :-: | :-: |
+| `STOP1`      | red    | red | 1 sec | |
+| `WEST_GO`    | red    | green | 4 sec | |
+| `WEST_WAIT`  | red    | yellow | 2 sec | |
+| `STOP2`      | red    | red | 1 sec | |
+| `SOUTH_GO`   | green  | red | 4 sec | |
+| `SOUTH_WAIT` | yellow | red | 2 sec | |
 
 ### 3.1. State table
 
