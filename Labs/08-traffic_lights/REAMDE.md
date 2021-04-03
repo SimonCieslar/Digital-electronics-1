@@ -7,6 +7,7 @@
     * Figure with connection of RGB LEDs on Nexys A7 board and completed table with color settings.
 
 2. Traffic light controller. Submit:
+    * State diagram,
     * Listing of VHDL code of sequential process `p_traffic_fsm` with syntax highlighting,
     * Listing of VHDL code of combinatorial process `p_output_fsm` with syntax highlighting,
     * Screenshot(s) of the simulation, from which it is clear that controller works correctly.
@@ -38,9 +39,11 @@
 
 ## 2. Traffic light controller
 
+### 2.1. State diagram
+
 ![sequential_process](Images/sequential_process.png)
 
-### 2.1. Listing of VHDL code of sequential process `p_traffic_fsm` with syntax highlighting
+### 2.2. Listing of VHDL code of sequential process `p_traffic_fsm` with syntax highlighting
 
 ```vhdl
     p_traffic_fsm : process(clk)
@@ -121,7 +124,7 @@
     end process p_traffic_fsm;
 ```    
 
-### 2.2. Listing of VHDL code of combinatorial process `p_output_fsm` with syntax highlighting
+### 2.3. Listing of VHDL code of combinatorial process `p_output_fsm` with syntax highlighting
 
 ```vhdl
     p_output_fsm : process(s_state)
@@ -158,7 +161,7 @@
     end process p_output_fsm;
 ```
 
-### 2.3. Screenshot(s) of the simulation, from which it is clear that controller works correctly
+### 2.4. Screenshot(s) of the simulation, from which it is clear that controller works correctly
 
 ![tlc_waveform1](Images/tlc_waveform1.png)
 
