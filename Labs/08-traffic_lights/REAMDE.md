@@ -38,7 +38,7 @@
 
 ## 2. Traffic light controller
 
-![sequential process](Images/sequential process.png)
+![sequential_process](Images/sequential_process.png)
 
 ### 2.1. Listing of VHDL code of sequential process `p_traffic_fsm` with syntax highlighting
 
