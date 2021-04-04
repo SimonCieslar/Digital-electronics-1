@@ -24,21 +24,23 @@ use ieee.numeric_std.all;
 ------------------------------------------------------------------------
 -- Entity declaration for traffic light controller
 ------------------------------------------------------------------------
-entity tlc is
+entity smart_tlc is
     port(
         clk     : in  std_logic;
         reset   : in  std_logic;
 
-        -- Traffic lights (RGB LEDs) for two directions        
+        sens_south  : in  std_logic;
+        sens_west   : in  std_logic;
+       
         south_o : out std_logic_vector(3 - 1 downto 0);
         west_o  : out std_logic_vector(3 - 1 downto 0)
     );
-end entity tlc;
+end entity smart_tlc;
 
 ------------------------------------------------------------------------
 -- Architecture declaration for traffic light controller
 ------------------------------------------------------------------------
-architecture Behavioral of tlc is
+architecture Behavioral of smart_tlc is
 
     -- Define the states
     type t_state is (STOP1,
@@ -85,7 +87,7 @@ begin
     -- The sequential process with synchronous reset and clock_enable 
     -- entirely controls the s_state signal by CASE statement.
     --------------------------------------------------------------------
-    p_traffic_fsm : process(clk)
+    p_smart_traffic_fsm : process(clk)
     begin
         if rising_edge(clk) then
             if (reset = '1') then       -- Synchronous reset
@@ -115,7 +117,11 @@ begin
                         if (s_cnt < c_DELAY_4SEC) then
                             s_cnt <= s_cnt + 1;
                         else
-                            s_state <= WEST_WAIT;
+                            if (sens_west = '1' and sens_south = '0') then
+                                s_state <= WEST_GO;
+                            else
+                                s_state <= WEST_WAIT;
+                            end if;    
                             s_cnt   <= c_ZERO;
                         end if;
                         
@@ -139,7 +145,11 @@ begin
                         if (s_cnt < c_DELAY_4SEC) then
                             s_cnt <= s_cnt + 1;
                         else
-                            s_state <= SOUTH_WAIT;
+                            if (sens_west = '0' and sens_south = '1') then
+                                s_state <= SOUTH_GO;
+                            else
+                                s_state <= SOUTH_WAIT;
+                            end if;
                             s_cnt   <= c_ZERO;
                         end if;
                         
@@ -160,7 +170,7 @@ begin
                 end case;
             end if; -- Synchronous reset
         end if; -- Rising edge
-    end process p_traffic_fsm;
+    end process p_smart_traffic_fsm;
 
     --------------------------------------------------------------------
     -- p_output_fsm:
@@ -168,7 +178,7 @@ begin
     -- the output signals accordingly. This is an example of a Moore 
     -- state machine because the output is set based on the active state.
     --------------------------------------------------------------------
-    p_output_fsm : process(s_state)
+    p_output_smart_fsm : process(s_state)
     begin
         case s_state is
             when STOP1 =>
@@ -199,6 +209,6 @@ begin
                 south_o <= "100";   -- Red
                 west_o  <= "100";   -- Red
         end case;
-    end process p_output_fsm;
+    end process p_output_smart_fsm;
 
 end architecture Behavioral;
