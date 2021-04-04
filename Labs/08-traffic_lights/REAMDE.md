@@ -169,6 +169,8 @@
 
 ## 3. Smart controller
 
+### 3.1. State table
+
 | **Current state** | **Direction South** | **Direction West** | **Delay** | **Input** |
 | :-- | :-: | :-: | :-: | :-: |
 | `STOP1`      | red    | red | 1 sec | |
@@ -177,8 +179,6 @@
 | `STOP2`      | red    | red | 1 sec | |
 | `SOUTH_GO`   | green  | red | 4 sec | |
 | `SOUTH_WAIT` | yellow | red | 2 sec | |
-
-### 3.1. State table
 
 ### 3.2. State diagram
 
