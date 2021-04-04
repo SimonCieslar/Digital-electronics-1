@@ -173,12 +173,12 @@
 
 | **Current state** | **Direction South** | **Direction West** | **Delay** | **Input** |
 | :-- | :-: | :-: | :-: | :-: |
-| `STOP1`      | red    | red | 1 sec | |
+| `STOP1`      | red    | red | 1 sec | Unchanged |
 | `WEST_GO`    | red    | green | 4 sec | 0, X, X or 1, 1, 0 go to WEST_GO else go to WEST_WAIT |
-| `WEST_WAIT`  | red    | yellow | 2 sec | |
-| `STOP2`      | red    | red | 1 sec | |
-| `SOUTH_GO`   | green  | red | 4 sec | |
-| `SOUTH_WAIT` | yellow | red | 2 sec | |
+| `WEST_WAIT`  | red    | yellow | 2 sec | Unchanged |
+| `STOP2`      | red    | red | 1 sec | Unchanged |
+| `SOUTH_GO`   | green  | red | 4 sec | 0, X, X or 1, 0, 1 go to SOUTH_GO else go to SOUTH_WAIT |
+| `SOUTH_WAIT` | yellow | red | 2 sec | Unchanged |
 
 ### 3.2. State diagram
 
