@@ -263,9 +263,6 @@ Zjednodušení kódu by se dalo provést odstrněním STOP1 a STOP2 a následnou
                             s_cnt   <= c_ZERO;
                         end if;
 
-                    -- It is a good programming practice to use the 
-                    -- OTHERS clause, even if all CASE choices have 
-                    -- been made. 
                     when others =>
                         s_state <= STOP1;
 
