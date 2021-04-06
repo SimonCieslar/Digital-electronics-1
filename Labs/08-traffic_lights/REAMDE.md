@@ -186,6 +186,8 @@
 
 ### 3.3. Listing of VHDL code of sequential process `p_smart_traffic_fsm` with syntax highlighting
 
+**Zjednodušení kódu by se dalo provést odstrněním STOP1 a STOP2 a následnou úpravou kódu 
+
 ```vhdl
     p_smart_traffic_fsm : process(clk)
     begin
