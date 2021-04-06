@@ -182,6 +182,8 @@
 
 ### 3.2. State diagram
 
+![sequential_process_smart](Images/sequential_process_smart.png)
+
 ### 3.3. Listing of VHDL code of sequential process `p_smart_traffic_fsm` with syntax highlighting
 
 ```vhdl
